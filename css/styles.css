@@ -1,0 +1,287 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  color: #111;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1166px; /* 1128 + 15 + 15 */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.orange {
+  color: #fd9222;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+/* #region header */
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.logo {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.logo-style {
+  font-style: normal;
+}
+
+.nav-header {
+}
+
+.header-nav-list {
+}
+
+.nav-header-item {
+}
+
+.item-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.item-nav-link:hover,
+.item-nav-link:focus {
+  color: #fd9222;
+}
+
+/* #endregion header */
+
+/* #region hero */
+
+.hero {
+  background-color: #1e1823;
+  margin-bottom: 72px;
+  border-radius: 30px;
+}
+
+.hero-content {
+  padding: 375px 40px 45px 40px;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fd9222;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
+.hero-link-made {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-link-made:hover,
+.hero-link-made:focus {
+  color: #fd9222;
+}
+
+.hero-link-down {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-link-down:hover,
+.hero-link-down:focus {
+  color: #fd9222;
+}
+
+/* #endregion hero */
+
+/* #region Benefits */
+.benefits {
+  background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.benefits-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.benefits-list {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.benefits-list-item {
+}
+
+.benefits-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.benefits-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* #endregion Benefits */
+
+.ingredients {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.ingredients-title {
+  max-width: 411px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.ingredients-text {
+  max-width: 486px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+  margin: 0 auto 50px;
+  /* margin-bottom: 50px; */
+}
+
+/* #region Footer */
+
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-addr {
+  font-style: normal;
+}
+
+.footer-addr-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fff;
+}
+
+.footer-addr-list {
+}
+
+.footer-addr-item {
+}
+
+.footer-addr-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-addr-link:focus,
+.footer-addr-link:hover {
+  color: #fd9222;
+}
+
+.nav-footer .item-nav-link {
+  color: #fff;
+}
+
+.nav-footer .item-nav-link:hover,
+.nav-footer .item-nav-link:focus {
+  color: #fd9222;
+}
+
+/* #endregion Footer */
