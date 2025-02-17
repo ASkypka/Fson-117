@@ -40,10 +40,28 @@ a {
   margin-bottom: 50px;
 }
 
+.title::after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 10px;
+  background-color: blue;
+
+}
+
+
+
 .task {
   display: flex;
   align-items: center;
   column-gap: 10px;
+}
+
+.task::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/pattern-bg.jpg);
 }
 
 .task:not(:last-child) {

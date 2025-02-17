@@ -37,4 +37,24 @@ a {
   height: 50px;
   border-radius: 50%;
   background-color: #ffffff;
+  fill: black;
+  color: black;
+  stroke: currentColor;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: black;
+  fill: white;
+  stroke: white;
+}
+
+
+/* .social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: white;
+} */
+
+.istagram {
+  fill: transparent;
 }
