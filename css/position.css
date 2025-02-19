@@ -27,18 +27,25 @@ body {
 }
 
 .red {
+
+
   width: 140px;
   height: 140px;
   background-color: #e74c3c;
 }
 
 .blue {
+  /* position: sticky;
+  top: 0;
+  left: 0; */
   width: 100px;
   height: 100px;
   background-color: rgba(0, 0, 255, 0.5);
 }
 
 .yellow {
+  /* position: relative;
+  z-index: 100; */
   width: 80px;
   height: 80px;
   background-color: #f1c40f;

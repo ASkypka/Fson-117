@@ -17,7 +17,10 @@
   cursor: pointer;
   margin: 0 auto;
   color: #ffffff;
-
+  /* transition-duration: 2500ms;
+  transition-timing-function: ease; */
+  /* transition-delay: 3000ms; */
+  transition: background-color 500ms ease, color 500ms ease;
   background-color: #2980b9;
 }
 
@@ -25,4 +28,5 @@
 .btn:focus {
   background-color: #e74c3c;
   color: teal;
+
 }
