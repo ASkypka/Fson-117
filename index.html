@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <form class="order-form">
+    <label class="order-form-field-label" for="user-name">Ім'я <span class="required-color">*</span></label>
+    <input class="order-form-input" id="user-name" name="user-name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
+      placeholder="Андрій" required type="password">
+
+    <label class="order-form-field-label" for="user-mail">Пошта <span class="required-color">*</span></label>
+    <input class="order-form-input" placeholder="test@mail.com" name="user-mail" id="user-mail" required type="email">
+
+    <label class="order-form-field-label" for="user-tel">Номер телефона <span class="required-color">*</span></label>
+    <input class="order-form-input" placeholder="xxx-xxx-xx-xx" name="user-tel"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" id="user-tel" title="xxx-xxx-xx-xx" required type="tel">
+
+    <fieldset class="order-form-fieldset">
+      <legend class="order-form-legend">Замовити піцу</legend>
+      <ul>
+        <li>
+          <label for="user-s">Маленька</label>
+          <input id="user-s" name="user-size" value="s" type="radio">
+        </li>
+        <li>
+          <label for="user-m">Середня</label>
+          <input id="user-m" name="user-size" value="m" type="radio">
+        </li>
+        <li>
+          <label for="user-xl">Велика</label>
+          <input id="user-xl" name="user-size" value="xl" type="radio">
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>Інгрідієнти</legend>
+      <ul>
+        <li>
+          <label>Сирний Бортик
+            <input type="checkbox" name="user-ingridients" value="cheese">
+          </label>
+        </li>
+        <li>
+          <label>Папероні
+            <input type="checkbox" name="user-ingridients" value="pepperoni">
+          </label>
+        </li>
+        <li>
+          <label>Томати
+            <input type="checkbox" name="user-ingridients" value="tomato">
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <label>
+      Виберіть місто
+      <select name="user-city">
+        <optgroup label="Київська область">
+          <option value="Київ">Київ</option>
+          <option value="Черкаси">Черкаси</option>
+          <option value="Одеса">Одеса</option>
+        </optgroup>
+        <optgroup label="Черкаська область">
+          <option value="Київ">Київ</option>
+          <option value="Черкаси">Черкаси</option>
+          <option value="Одеса">Одеса</option>
+        </optgroup>
+      </select>
+    </label>
+
+    <label class="order-form-field-label" for="user-comment">Коментар</label>
+    <textarea class="order-form-comment" placeholder="Коментар" name="user-comment" id="user-comment"></textarea>
+
+    <div class="order-form-btn-wrapper">
+      <button type="submit" class="order-form-btn order-form-btn-submit">Відправити</button>
+      <button type="reset" class="order-form-btn order-form-btn-reset">Очистити</button>
+    </div>
+  </form>
+</body>
+
+</html>
