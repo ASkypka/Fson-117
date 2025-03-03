@@ -1,0 +1,74 @@
+body {
+    background-color: aquamarine;
+}
+
+
+p {
+    color: brown;
+}
+
+@media (min-width: 768px) {
+    p {
+        color: yellowgreen;
+    }
+}
+
+@media (min-width: 1200px) {
+    p {
+        color: black;
+    }
+}
+
+
+/* @media (max-width: 500px) {
+    body {
+        background-color: red;
+    }
+} */
+
+/* @media (max-width: 1200px) {
+    body {
+        background-color: green;
+    }
+} */
+
+
+/* @media (min-width: 1200px) {
+    body {
+        background-color: yellowgreen;
+    }
+} */
+
+/* @media (max-width: 300px),
+(min-width: 800px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media print and (min-width: 320px) {
+
+    .nav-item-link,
+    button {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        color: red;
+    }
+
+} */
+
+/* @media screen and (orientation: portrait) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-color: brown;
+    }
+} */
