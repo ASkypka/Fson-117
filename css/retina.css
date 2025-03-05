@@ -27,6 +27,9 @@ body {
 3x - 288dpi
 */
 
+
+/* Мобілка */
+
 .hero {
   max-width: 375px;
   min-height: 211px;
@@ -44,6 +47,8 @@ body {
   }
 }
 
+/* Планшет */
+
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
@@ -58,7 +63,7 @@ body {
   }
 }
 
-
+/* Декстоп */
 
 @media screen and (min-width: 1200px) {
   .hero {
